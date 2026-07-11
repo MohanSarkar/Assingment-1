@@ -1,0 +1,71 @@
+/*  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif; 
+}
+
+/* Main Navbar Styling */
+.navbar {
+    background-color: #ffffff; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px 50px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
+
+/* Logo Setup */
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.logo-icon {
+    background-color: #0b1a30; 
+    color: #4a90e2; 
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column; 
+    color: #0b1a30;
+    line-height: 1.1;
+}
+
+/* Center Menu Links */
+.nav-links {
+    display: flex;
+    list-style: none; 
+    gap: 30px; 
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #555555; 
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #1e56e3; 
+}
+
+/* Right Side Button */
+.btn-register {
+    text-decoration: none;
+    background-color: #1e56e3; 
+    color: white;
+    padding: 12px 28px;
+    border-radius: 8px; 
+    font-weight: bold;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.btn-register:hover {
+    background-color: #1545b8; 
+}
