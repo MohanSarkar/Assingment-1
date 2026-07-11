@@ -1,0 +1,3 @@
+ <!-- prompt start  -->
+    I am a beginner and I want to learn how responsive design works. Write a simple, easy-to-understand HTML and CSS code for a 'DevHack 2026 Hackathon' section. Use basic Flexbox for a 3-column layout (showing '36 Hours', '$10,000 Prize Pool', 'Global Mentors') so that the columns automatically move below each other on small mobile screens. Make the container look like a purple card with a dashed border, a badge, and a button. Please include clean comments in the CSS code explaining why each responsive property is used so I can learn from it." 
+      <!-- prompt end  -->

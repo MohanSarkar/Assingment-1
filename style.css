@@ -154,6 +154,7 @@
 
 /* SPEAKERS SECTION STYLE   */
 
+   .speakers-section {
     padding: 80px 50px;
     background-color: #ffffff;
     text-align: center;
@@ -406,9 +407,9 @@
     background-color: #f9f9f9;
 }
 
-/* ============================================= */
-/* HACKATHON SECTION STYLE                       */
-/* ============================================= */
+
+/* bonous section part */
+
 .hackathon-section {
     padding: 80px 50px;
     background-color: #ffffff;
@@ -416,10 +417,10 @@
     display: block;
 }
 
-/* Light purple wrapper style matching placeholder image hint */
+
 .hackathon-container {
     background-color: #f3efff; 
-    border: 2px dashed #a892ee; /* Dashed/dashed border look */
+    border: 2px dashed #a892ee; 
     border-radius: 16px;
     padding: 60px 40px;
     max-width: 1100px;
@@ -456,14 +457,14 @@
     line-height: 1.6;
 }
 
-/* Stats structure using Flex-box */
+
 .hackathon-stats {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
     margin-bottom: 40px;
-    flex-wrap: wrap; /* Screen choto hole niche niche ashbe auto */
+    flex-wrap: wrap; 
 }
 
 .stat-item {
@@ -484,7 +485,7 @@
     font-weight: 500;
 }
 
-/* Dark Theme Contrast Button */
+
 .btn-hackathon {
     text-decoration: none;
     background-color: #0b1a30;
@@ -501,3 +502,82 @@
     background-color: #1a2c47;
     transform: scale(1.02); /* Hover korle light scaling zoom hobe */
 }
+
+
+/* FOOTER SECTION STYLE */
+
+.footer-section {
+    background-color: #274168; 
+    color: #ffffff;
+    padding: 40px 20px;
+    width: 100%;
+    display: block;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+.footer-top {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.footer-logo strong {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.footer-logo span {
+    color: #1e56e3; 
+    font-weight: bold;
+}
+
+
+.footer-socials {
+    display: flex;
+    gap: 15px; 
+}
+
+.social-icon {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #1a2c47; 
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    border-radius: 50%;    
+    transition: background-color 0.3s ease;
+}
+
+.social-icon i {
+    font-size: 16px; 
+}
+
+.social-icon:hover {
+    background-color: #1e56e3; 
+}
+
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid #1a2c47; 
+    margin-bottom: 20px;
+}
+
+
+.footer-bottom {
+    text-align: left; 
+}
+
+.footer-bottom p {
+    font-size: 13px;
+    color: #888888; 
+}
+
